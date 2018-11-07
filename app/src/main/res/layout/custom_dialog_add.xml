@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    android:scrollbarStyle="insideInset"
+    android:gravity="center"
+    >
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/themnv"
+            android:textSize="30dp"
+            android:textColor="#fc5252"
+
+            />
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:src="@drawable/image_icon"
+            android:id="@+id/imgAnhAdd"
+            android:scaleType="fitCenter"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            >
+            <ImageButton
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/camera"
+                android:scaleType="fitCenter"
+                android:id="@+id/btnCamera"/>
+            <ImageButton
+                android:layout_marginLeft="40dp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/btnFolder"
+                android:src="@drawable/folder_icon_red"
+                android:scaleType="fitCenter"
+                />
+        </LinearLayout>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/ten"
+                    android:layout_marginRight="10dp"
+                    />
+                <EditText
+                    android:id="@+id/edtTen"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/ten"
+                    />
+
+
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="20dp"
+                    android:text="@string/gioitinh"
+                    android:layout_marginRight="10dp"
+                    />
+                <RadioGroup
+                    android:id="@+id/radGroupGioitinh"
+                    android:orientation="horizontal"
+                    >
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nam"
+                        android:textSize="20dp"
+                        android:id="@+id/radnam"
+                        />
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nu"
+                        android:textSize="20dp"
+                        android:id="@+id/radnu"
+                        />
+                </RadioGroup>
+
+
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:textSize="20dp"
+                    android:text="@string/ngaysinh"
+                    android:layout_gravity="center"
+                    />
+
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:orientation="horizontal"
+                    >
+                    <TextView
+                        android:id="@+id/txtNgaySinh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="@string/ngaythang" />
+                    <Button
+                        android:id="@+id/btnNgaySinh"
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:text="@string/ngay"
+                        />
+
+
+                </LinearLayout>
+
+            </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp">
+                <TextView
+                    android:text="@string/phongban"
+                    android:textSize="20dp"
+                    />
+                <Spinner
+                    android:id="@+id/spinnerPhongBan"
+                    />
+
+
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+
+
+</ScrollView>

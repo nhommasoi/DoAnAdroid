@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoNhanVienActivity"
+    android:gravity="center">
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.example.dtanp.quanlinhansu.fragment.FragmentInfoNhanVien"
+        android:id="@+id/fragmenInfoNhanVien"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

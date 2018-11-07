@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="search"
+        android:icon="@android:drawable/ic_search_category_default"
+        android:showAsAction="always"
+        android:id="@+id/btnssearch"
+        ></item>
+    <item android:title="Thêm"
+            android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:id="@+id/btnadd"
+        />
+    <item android:title="@string/thempb"
+        android:id="@+id/menuPhongBan"
+        ></item>
+    <item android:title="@string/gioithieu"
+        android:id="@+id/menugioithieu"
+        ></item>
+    <item android:title="@string/thoat"
+        android:id="@+id/menuthoat"
+        >
+    </item>
+</menu>

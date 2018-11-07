@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <ImageView
+        android:id="@+id/imgAnh"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/ma"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtMa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text=" AAAAA"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/ten"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Nguyen van A"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/phongban"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtPhongBan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="IT"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/ngaysinh"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtNgaysinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="20/2/1900"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/gioitinh"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtGioiTinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Nam"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageButton
+        android:id="@+id/btnXoa"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+           android:src="@drawable/iconxoa"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnSua"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/iconsua"
+            android:scaleType="fitCenter"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/luu"
+        android:visibility="invisible"
+        />
+
+</LinearLayout>

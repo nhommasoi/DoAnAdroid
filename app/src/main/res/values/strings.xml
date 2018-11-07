@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">QuanLiNhanSu</string>
+    <string name="nhomatkhau">Remember me</string>
+    <string name="quenmatkhau">Forgot Password?</string>
+    <string name="dangnhap">Login</string>
+    <string name="tendangnhap">Username</string>
+    <string name="matkhau">Password</string>
+    <string name="ten">Name</string>
+    <string name="ma">ID</string>
+    <string name="phongban">Room</string>
+    <string name="ngaysinh">Birthday</string>
+    <string name="gioitinh">Sex</string>
+    <string name="diachi">Adress</string>
+    <string name="sodienthoai">Phone</string>
+    <string name="gioithieu">About</string>
+    <string name="thoat">Exit</string>
+    <string name="themnv">Employees</string>
+    <string name="thempb">Room</string>
+    <string name="nam">Male</string>
+    <string name="nu">Female</string>
+    <string name="ngaythang">dd/mm/yyyy</string>
+    <string name="ngay">Date</string>
+    <string name="xoa">Delete</string>
+    <string name="ghichuxoa">Are you Sure !</string>
+    <string name="xacnhan">Yes</string>
+    <string name="huy">Cancle</string>
+    <string name="luu">Apply</string>
+    <string name="title_activity_about">Map</string>\
+    <string name="google_maps_key">AIzaSyBQ4_ueK00DcP3z1YBO70hXycWCWIooTso</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center"
+    >
+    <TextView
+        android:id="@+id/txtTen"
+        android:text="Phong Ban"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        />
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/ma"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtMa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="AAA"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/diachi"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtDiaChi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="437 pvt"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="@string/sodienthoai"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtSDT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="028888888"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageButton
+            android:id="@+id/btnXoa"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/iconxoa"
+            android:scaleType="fitCenter"
+            />
+        <ImageButton
+            android:layout_marginLeft="20dp"
+            android:id="@+id/btnSua"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:src="@drawable/iconsua"
+            android:scaleType="fitCenter"
+            />
+
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSave"
+        android:text="@string/luu"
+        android:visibility="invisible"/>
+
+</LinearLayout>
